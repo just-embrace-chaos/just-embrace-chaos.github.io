@@ -74,9 +74,10 @@ export default function RootLayout({
           rel="preconnect"
           href="https://api.openweathermap.org"
         />
+        <meta name="google-adsense-account" content="ca-pub-6042638700707862"/>
         <script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6042638700707862"
           crossOrigin="anonymous"
         ></script>
       </head>
