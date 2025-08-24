@@ -249,6 +249,19 @@ export default function ContactPage() {
                 </div>
 
                 {/* Error Message */}
+                {state.errors && Object.keys(state.errors).length > 0 && (
+                  <div className="alert alert-error">
+                    <AlertCircle className="w-5 h-5" />
+                    <div>
+                      {/* Display all error messages */}
+                      {Object.values(state.errors).map((error, i) => (
+                        <p key={i}>{error?.message}</p>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                
+                {/* {/* Error Message */}
                 {state.errors && state.errors.length > 0 && (
                   <div className="alert alert-error">
                     <AlertCircle className="w-5 h-5" />
@@ -257,7 +270,8 @@ export default function ContactPage() {
                       <p className="text-sm">Please check your form and try again.</p>
                     </div>
                   </div>
-                )}
+                )} */}
+                
               </form>
             </motion.div>
 
