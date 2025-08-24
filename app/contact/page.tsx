@@ -261,17 +261,6 @@ export default function ContactPage() {
                   </div>
                 )}
                 
-                {/* {/* Error Message */}
-                {state.errors && state.errors.length > 0 && (
-                  <div className="alert alert-error">
-                    <AlertCircle className="w-5 h-5" />
-                    <div>
-                      <h4 className="font-semibold">Oops! Something went wrong</h4>
-                      <p className="text-sm">Please check your form and try again.</p>
-                    </div>
-                  </div>
-                )} */}
-                
               </form>
             </motion.div>
 
