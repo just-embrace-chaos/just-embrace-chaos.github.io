@@ -1,5 +1,6 @@
 'use client'
 
+import { Script } from "next/script";
 import { useEffect } from 'react'
 
 interface AdSpaceProps {
@@ -33,8 +34,12 @@ export default function AdSpace({ id, className = '', placeholder = 'Advertiseme
         </div>
       </div>
 
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6042638700707862"
-     crossorigin="anonymous"></script>
+      <Script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6042638700707862"
+        crossOrigin="anonymous"
+        strategy="afterInteractive"
+      />
       
     </div>
   )
