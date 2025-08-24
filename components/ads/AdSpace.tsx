@@ -32,16 +32,6 @@ export default function AdSpace({ id, className = '', placeholder = 'Advertiseme
           Ad Space Available
         </div>
       </div>
-      
-      {/* {/* Uncomment for Google AdSense integration */}
-      <ins
-        className="adsbygoogle"
-        style={{ display: 'block' }}
-        data-ad-client="ca-pub-6042638700707862"
-        data-ad-slot="XXXXXXXXXX"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      ></ins> */}
 
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6042638700707862"
      crossorigin="anonymous"></script>
